@@ -78,7 +78,7 @@ def display_frame():
         cv2.imshow('Webcam - YOLOv8', annotated_frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        root.quit()  # Tutup aplikasi saat 'q' ditekan
+        root.quit()  
 
     root.after(10, display_frame)  # Panggil fungsi ini lagi setelah 10 ms
 
